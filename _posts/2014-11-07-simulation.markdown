@@ -15,7 +15,7 @@ Proof: X < x bi-directionally implies F(X) < F(x) (because the CDF is monotonica
 
 This result turns out to be extremely useful. Assume that F is invertible and let G be its inverse (i.e. F(x) = y iff G(y) = x). Because F(X) = U (where U ~ uniform(0,1)) for **any continuous random variable X**, we can see that G(F(X)) = G(U) implies that **X = G(U).**
 
-*Example:* Let X be an exponential random variable with lambda = 1. Then F(x) = 1 -exp(-x). So 1 -exp(-X) = U which implies that exp(-X) = U (because 1 -U is also distributed uniform(0,1)). Solving for X, we get X = -ln(U). We simulate a U = uniform(0,1) (this is native in just about any programming language), and set our simulated value of x = -ln(U).
+**Example:** Let X be an exponential random variable with lambda = 1. Then F(x) = 1 -exp(-x). So 1 -exp(-X) = U which implies that exp(-X) = U (because 1 -U is also distributed uniform(0,1)). Solving for X, we get X = -ln(U). We simulate a U = uniform(0,1) (this is native in just about any programming language), and set our simulated value of x = -ln(U).
 
 **Big takeaway:** If X is a continuous random variable with an invertible CDF (this includes distributions such as exponential, arcsine, Pareto, Cauchy, and many others) then **we can simulate X with a uniform by setting X = G(U).**
 
