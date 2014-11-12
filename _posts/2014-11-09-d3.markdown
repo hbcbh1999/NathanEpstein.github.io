@@ -17,13 +17,55 @@ D3 is a front-end/client-side technology. It lets you append, remove and style D
 ##A Simple Exercise
 Copy the following html and load the page. Notice how D3 selects the ‘h1’ element and changes the text. See if you can do something similar to the other headers (hint: We can target the other headers by replacing ‘d3.select(‘h1’)’ with ‘d3.select(‘h2’)’ or ‘d3.select(‘h3’)’ and then change the text and color as desired).
 
-<img src="/img/d3/one.png">
+{% highlight html%}
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>This is a h1 header.</h1>
+    <h2>And a h2 header.</h2>
+    <h3>Lastly, a h3 header.</h3>
+    <script type="text/javascript">
+      var h1 = d3.select('h1');
+      h1.text("This is h1 text replaced by d3");
+      h1.style('color','red');
+    </script>
+  </body>
+</html>
+
+{% endhighlight%}
 
 ##Binding Data
 
 What if we actually wanted to do something with data? Let’s look at how to create DOM elements based on data.
 
-<img src="/img/d3/two.png">
+
+{%highlight html%}
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>This is a h1 header.</h1>
+    <h2>And a h2 header.</h2>
+    <h3>Lastly, a h3 header.</h3>
+    <script type="text/javascript">
+      var dataArr = [1,2,3];
+      d3.select('body').selectAll('p')
+        .data(dataArr)
+        .enter()
+        .append('p')
+        .text(function(d){
+          return "I'm 'p' element number"+d;
+        })
+        .style('font-size',function(d){
+          return d*10;
+        })
+    </script>
+  </body>
+</html>
+{%endhighlight%}
 
 What are we doing the code above? We select the body and then we select all paragraph elements in the body (even though there are none yet!). Selecting all paragraphs returns an empty selection, which you can think of as a reference to the paragraphs which will soon exist.
 
@@ -41,15 +83,87 @@ Because each element of ‘dataArr’ is bound to a unique DOM element, we can r
 
 But how do we actually visualize our data? Visualization is generally done with an SVG object (Scalable Vector Graphics). You can think of it like a canvas on which other things are drawn.
 
-<img src="/img/d3/three.png">
+
+{%highlight html%}
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var canvas = d3.select('body')
+                .append('svg')
+                .style('background','LightGray')
+                .attr('height',150)
+                .attr('width',150);
+    </script>
+  </body>
+</html>
+{%endhighlight%}
+
 
 Above we create a 150x150 SVG with a light gray background. If you run the code above in a browser you should see a page with a gray box. That box is our canvas.
 
-<img src="/img/D3/four.png">
+{%highlight html%}
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var data2 = [20,45,30,90];
+
+    var canvas = d3.select('body')
+                .append('svg')
+                .style('background','LightGray')
+                .attr('height',150)
+                .attr('width',150);
+
+    canvas.selectAll('rect')
+          .data(data2)
+          .enter()
+          .append('rect');
+
+    </script>
+  </body>
+</html>
+{%endhighlight%}
 
 Above, we bind the data to previously non-existent rectangle elements (exactly the same way we did for paragraph elements before). Finally, we can set the attributes of the rectangles to size them based on the data.
 
-<img src="/img/d3/five.png">
+{%highlight html%}
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var data2 = [20,45,30,90];
+
+    var canvas = d3.select('body')
+                .append('svg')
+                .style('background','LightGray')
+                .attr('height',150)
+                .attr('width',150);
+
+    canvas.selectAll('rect')
+          .data(data2)
+          .enter()
+          .append('rect')
+          .attr('y',0)
+          .attr('x',function(datum,index){
+            return index*20;
+          })
+          .attr('width',15)
+          .attr('height',function(datum){
+            return datum;
+          })
+          .style('fill','red');
+
+    </script>
+  </body>
+</html>
+{%endhighlight%}
 
 We set the x attribute based on the index (so that each rectangle is 20 pixels to the right of the last one), we set y to 0 (so that each rectangle is connected to the top of the canvas), we set the width to 15 pixels, and — most importantly — we set the height according to the value of the datum which is bound to that rectangle!
 
