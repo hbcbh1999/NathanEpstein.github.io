@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Nathan Epstein
 title:  "D3.js in 5 Minutes"
 date:   2014-10-21 12:00:00
 categories: jekyll update

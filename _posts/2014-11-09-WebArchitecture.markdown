@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Nathan Epstein
 title:  "Intro Web Architecture"
 date:   2014-06-01 12:00:00
 categories: jekyll update

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Nathan Epstein
 title:  "Simulation Foundations"
 date:   2014-08-07 12:00:00
 categories: jekyll update
