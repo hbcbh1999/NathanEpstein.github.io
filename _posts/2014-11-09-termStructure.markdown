@@ -20,7 +20,7 @@ Letting the bond price, P, be a function of the short rate, r, we have the follo
   var string = 'dr = a(t,r)dt + b(t,r)dW';
   var string2 = 'dP = (P_t + aP_r + 0.5b^2P_{rr})dt + bP_rdW';
   var string3 = '\\to dP/P = \\mu dt +\\sigma dW';
-  var string4 = 'where \\ \\mu = P^{-1}(P_t + aP_r + 0.5b^2P_{rr}),\\ and\\ \\sigma = P^{-1}(bP_r)'
+  var string4 = '\\ \\mu = P^{-1}(P_t + aP_r + 0.5b^2P_{rr}),\\ \\sigma = P^{-1}(bP_r)'
   var html = $.parseHTML(katex.renderToString(string));
   var html2 = $.parseHTML(katex.renderToString(string2));
   var html3 = $.parseHTML(katex.renderToString(string3));
@@ -28,7 +28,7 @@ Letting the bond price, P, be a function of the short rate, r, we have the follo
   $('#img1').append(html);
   $('#img2').append(html2);
   $('#img3').append(html3);
-  $('#img4').append(html4);
+  $('#img4').append(html4).prepend('where');
 
 </script>
 
@@ -57,7 +57,7 @@ We can make this portfolio risk free by choosing V1 and V2 such that dV does not
 
 <script type="text/javascript">
   var string = 'V_2\\sigma _2 - V_1 \\sigma _1 = 0';
-  var string2 = '= V_2 = (V_1\\sigma _1/\\sigma _2)';
+  var string2 = '\\to V_2 = (V_1\\sigma _1/\\sigma _2)';
   var html = $.parseHTML(katex.renderToString(string));
   var html2 = $.parseHTML(katex.renderToString(string2));
   $('#img7').append(html);
@@ -65,7 +65,7 @@ We can make this portfolio risk free by choosing V1 and V2 such that dV does not
 </script>
 
 
-Note: This is the risk-neutral condition on the portfolio
+Note: This is the risk-neutral condition on the portfolio.
 
 Such a portfolio will earn the risk-free rate by the assumption of no arbitrage.
 
@@ -74,7 +74,7 @@ Such a portfolio will earn the risk-free rate by the assumption of no arbitrage.
 <div class='eqtn' id='img11'></div>
 
 <script type="text/javascript">
-  var string = 'dV = V_2\\mu _2 - V_1\\mu _1 = rVdt';
+  var string = 'dV = (V_2\\mu _2 - V_1\\mu _1)dt = rVdt';
   var string2 = '\\to (V_1\\sigma _1/\\sigma _2)(\\mu _2 - r)= V_1(\\mu _1 - r)';
   var string3 = '\\to (\\mu _2 - r)/(\\sigma _2) = (\\mu _1 - r)/(\\sigma _1) = \\gamma (t,r)';
 
@@ -83,7 +83,7 @@ Such a portfolio will earn the risk-free rate by the assumption of no arbitrage.
   var html3 = $.parseHTML(katex.renderToString(string3));
 
   $('#img9').append(html);
-  $('#img10').append(html2).append(' by the risk-neutral condition.');
+  $('#img10').append(html2).append('by the risk-neutral condition.');
   $('#img11').append(html3);
 
 </script>
