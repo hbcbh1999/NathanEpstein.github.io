@@ -83,7 +83,7 @@ Such a portfolio will earn the risk-free rate by the assumption of no arbitrage.
   var html3 = $.parseHTML(katex.renderToString(string3));
 
   $('#img9').append(html);
-  $('#img10').append(html2).append('by the risk-neutral condition.');
+  $('#img10').append(html2).append(' by the risk-neutral condition.');
   $('#img11').append(html3);
 
 </script>
