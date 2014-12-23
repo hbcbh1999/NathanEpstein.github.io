@@ -6,53 +6,55 @@ date:   2014-12-22 12:00:00
 categories: jekyll update
 img: "../img/project.png"
 ---
-
-<style type="text/css">
-  li{
-    font-size: 20px;
-    margin: 10px;
-  }
-</style>
-
-<ul>
-  <li>
-    <a href="http://sphynx.herokuapp.com/">
-      Sphynx (Winner at New York Times Hack Day 2014)
-    </a>
-  </li>
-  <li>
-    <a href="https://www.dropbox.com/sh/pda1dfpts02ykvl/AABSDiNeRAtVrE9gKyQOjNmoa?dl=0">
-      Opinionated Plotting Tools (Talk @ NYC D3 Meetup 12/22/2014)
-    </a>
-  </li>
-  <li>
-    <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
-      Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/NathanEpstein/D3xter">
-      D3xter.js - Simple plotting built on D3
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/NathanEpstein/Z3d">
-      Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/NathanEpstein/stochastic">
-      Stochastic.js - Simulation of common stochastic processes
-    </a>
-  </li>
-  <li>
-    <a href="http://d3stockmarket.herokuapp.com/">
-      S&P Throughout History
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/NathanEpstein/KNear">
-      KNear - javascript implementation of the K-nearest neighbors algorithm
-    </a>
-  </li>
-</ul>
+<head>
+  <style type="text/css">
+    .project{
+      font-size: 20px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class='project'>
+      <a href="http://sphynx.herokuapp.com/">
+        Sphynx (Winner at New York Times Hack Day 2014)
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://www.dropbox.com/sh/pda1dfpts02ykvl/AABSDiNeRAtVrE9gKyQOjNmoa?dl=0">
+        Opinionated Plotting Tools (Talk @ NYC D3 Meetup 12/22/2014)
+      </a>
+    </li>
+    <li class='project'>
+      <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
+        Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://github.com/NathanEpstein/D3xter">
+        D3xter.js - Simple plotting built on D3
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://github.com/NathanEpstein/Z3d">
+        Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://github.com/NathanEpstein/stochastic">
+        Stochastic.js - Simulation of common stochastic processes
+      </a>
+    </li>
+    <li class='project'>
+      <a href="http://d3stockmarket.herokuapp.com/">
+        S&P Throughout History
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://github.com/NathanEpstein/KNear">
+        KNear - javascript implementation of the K-nearest neighbors algorithm
+      </a>
+    </li>
+  </ul>
+</body>
