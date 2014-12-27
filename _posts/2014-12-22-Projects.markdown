@@ -32,13 +32,13 @@ img: "../img/project.png"
       </a>
     </li>
     <li class='project'>
-      <a href="https://github.com/NathanEpstein/D3xter">
-        D3xter.js - Simple plotting built on D3
+      <a href="https://github.com/NathanEpstein/Z3d">
+        Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
       </a>
     </li>
     <li class='project'>
-      <a href="https://github.com/NathanEpstein/Z3d">
-        Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
+      <a href="https://github.com/NathanEpstein/D3xter">
+        D3xter.js - Simple plotting built on D3
       </a>
     </li>
     <li class='project'>
