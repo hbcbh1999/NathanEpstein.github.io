@@ -1,0 +1,36 @@
+{
+  "name": "z3d",
+  "version": "0.0.3",
+  "homepage": "https://github.com/NathanEpstein/z3d",
+  "authors": [
+    "nepstein <ne2210@columbia.edu>"
+  ],
+  "description": "simple visualization for 3 to 5 dimensional data built on three.js",
+  "main": "/js/plot.js",
+  "keywords": [
+    "3d",
+    "data",
+    "visualization"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "threejs": "*"
+  },
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "c4b14955dc7ffe32a465945a17c3f1fc2f5249ea"
+  },
+  "_source": "git://github.com/NathanEpstein/z3d.git",
+  "_target": "~0.0.3",
+  "_originalSource": "z3d",
+  "_direct": true
+}
