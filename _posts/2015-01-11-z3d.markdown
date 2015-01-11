@@ -19,8 +19,8 @@ To use these examples, simply `bower install z3d` and copy the code.
 
 
 <div class="btn-group" role="group">
-  <button id='b1' type="button" class="btn btn-default">Simple Example</button>
-  <button id='b2' type="button" class="btn btn-default">Customized Example</button>
+  <button id='b1' type="button" class="btn btn-default">Basic Example</button>
+  <button id='b2' type="button" class="btn btn-default">Configured Example</button>
 </div>
 
 <div id="plot"></div>
