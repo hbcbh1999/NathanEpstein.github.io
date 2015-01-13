@@ -2,49 +2,22 @@
 layout: default
 ---
 <head>
+  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
-<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
 
-<link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
-
-<script src="/bower_components/threejs/build/three.min.js" charset="utf-8"></script>
-<script src="/bower_components/z3d/js/OrbitControls.js" charset="utf-8"></script>
-<script src="/bower_components/z3d/js/plot.js" charset="utf-8"></script>
-
-<style type="text/css">
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Montserrat', serif;
-  line-height: 1.5em;
-  color: #333333;
-}
-
-.postItem {
-  margin-bottom: 50px;
-}
-article p{
-  font-family: 'Forum', serif;
-  font-size: 22px;
-  line-height: 1.5em;
-  margin: 15px 0;
-}
-.eqtn{
-  font-size: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-</style>
-
+  <script src="/bower_components/threejs/build/three.min.js" charset="utf-8"></script>
+  <script src="/bower_components/z3d/js/OrbitControls.js" charset="utf-8"></script>
+  <script src="/bower_components/z3d/js/plot.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="/css/post.css">
 </head>
 <div class="post">
-
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -53,5 +26,4 @@ article p{
   <article class="post-content">
     {{ content }}
   </article>
-
 </div>

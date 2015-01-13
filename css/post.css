@@ -1,0 +1,17 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', serif;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+article p{
+  font-family: 'Forum', serif;
+  font-size: 22px;
+  line-height: 1.5em;
+  margin: 15px 0;
+}
+.eqtn{
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
