@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nathan Epstein
-title:  "Try Z3d.js"
+title:  "Interactive Z3d.js Demo"
 date:   2015-01-11 12:00:00
 categories: jekyll update
 img: "../img/z3d.png"
