@@ -2,7 +2,7 @@
 layout: post
 author: Nathan Epstein
 title:  "Some of My Recent Projects"
-date:   2015-01-11 12:30:00
+date:   2015-01-27 12:30:00
 categories: jekyll update
 img: "../img/project.png"
 ---
@@ -19,6 +19,11 @@ img: "../img/project.png"
     <li class='project'>
       <a href="http://sphynx.herokuapp.com/">
         Sphynx (Winner at New York Times Hack Day 2014)
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://github.com/nathanepstein/findata">
+        finData - an R package to easily scrape and analyze financial time series data
       </a>
     </li>
     <li class='project'>
