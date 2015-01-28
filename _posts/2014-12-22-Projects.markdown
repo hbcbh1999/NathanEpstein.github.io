@@ -27,18 +27,23 @@ img: "../img/project.png"
       </a>
     </li>
     <li class='project'>
+      <a href="https://github.com/nathanepstein/markov">
+        markov - a compact C++ library for easily simulating common Markov processes
+      </a>
+    </li>
+    <li class='project'>
       <a href="https://www.dropbox.com/sh/pda1dfpts02ykvl/AABSDiNeRAtVrE9gKyQOjNmoa?dl=0">
         Opinionated Plotting Tools (Talk @ NYC D3 Meetup 12/22/2014)
       </a>
     </li>
     <li class='project'>
-      <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
-        Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
+      <a href="https://github.com/NathanEpstein/D3xter">
+        D3xter.js - Simple plotting built on D3
       </a>
     </li>
     <li class='project'>
-      <a href="https://github.com/NathanEpstein/D3xter">
-        D3xter.js - Simple plotting built on D3
+      <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
+        Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
       </a>
     </li>
     <li class='project'>
