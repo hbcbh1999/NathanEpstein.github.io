@@ -20,20 +20,16 @@ h2{
   margin-top: 0px;
 }
 
-@media (min-width: 800px) {
-  ul{
-    width: 130%;
-  }
+@media (min-width: 1000px){
   #wrap{
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
-
 }
 @media (max-width: 800px) {
   .postItem {
     text-align: center;
-    width: 50%
+    width: 50%;
   }
 }
 @media (max-width: 600px){
