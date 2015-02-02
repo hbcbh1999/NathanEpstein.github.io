@@ -1,0 +1,63 @@
+---
+layout: post
+author: Nathan Epstein
+title:  "Intro to Machine Learning"
+date:   2015-02-02 12:00:00
+categories: jekyll update
+img: "../img/ML.png"
+---
+##What is Machine Learning?
+
+Machine learning is a field at the intersection of statistics and computer science that seeks to develop algorithms which can learn from data.
+
+Such algorithms take data as input and output a model which can be used to make predictions or decisions based on observations outside the initial data set (i.e. given a set of emails which are labelled "spam" or "not spam", we can build a model to predict whether other emails are spam).
+
+##Types of Machine Learning
+
+There are three major types of machine learning which employ different methods based on the available data. Those three types are supervised learning, unsupervised learning, and reinforcement learning.
+
+##Supervised Learning
+
+In supervised learning, we develop models based on labelled training data. That is, our data have both input values and output values. The goal is to develop a model that will predict correct output based on new input values. The spam detection example above is a case of supervised learning.
+
+###Some Common Supervised Learning Techniques:
+
+<ul>
+  <li>Regression</li>
+  <li>Decision Trees</li>
+  <li>Random Forest</li>
+  <li>k-Nearest Neighbors</li>
+  <li>Neural Networks</li>
+  <li>Support Vector Machines</li>
+</ul>
+
+##Unsupervised Learning
+
+In unsupervised learning we attempt to find structure in unlabelled data. Unlike supervised learning, we do not have output values by which we can evaluate the quality of candidate solutions. Rather, we are attempting to uncover structure in the data that can be useful in understanding the system it comes from.
+
+For example, consider a dataset consisting of red and blue images. An algorithm can 'figure out' that red and blue are different and sort those images into different groups.
+
+###Some Common Unsupervised Learning Techniques:
+
+<ul>
+  <li>Clustering</li>
+  <li>Dimensionality Reduction</li>
+  <li>Hidden Markov Models</li>
+</ul>
+
+##Reinforcement Learning
+
+Reinforcement learning is concernced with how agents should behave in order to maximize a reward function.
+
+This is distinct from supervised learning because we are never presented with input/output pairs. The model 'learns' if a decision is good based on outcomes as opposed to a given output value.
+
+The familiar example is a mouse in a maze. A right turn leads to a shock while a left turn leads a piece of cheese - eventually the mouse learns to turn left.
+
+In programming applications, reinforcement learning is typically implemented as a <a href="http://en.wikipedia.org/wiki/Markov_decision_process">Markov decision process.</a>
+
+##What Type of Model?
+
+<img src="/../img/MLflow.png">
+
+
+
