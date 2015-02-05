@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nathan Epstein
-title:  "Build A Desktop REPL"
+title:  "Building A Desktop REPL"
 date:   2015-01-13 12:00:00
 categories: jekyll update
 img: "../img/webkit.png"

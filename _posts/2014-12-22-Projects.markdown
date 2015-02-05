@@ -2,7 +2,7 @@
 layout: post
 author: Nathan Epstein
 title:  "Some of My Recent Projects"
-date:   2015-02-02 12:30:00
+date:   2015-02-05 12:30:00
 categories: jekyll update
 img: "../img/project.png"
 ---
