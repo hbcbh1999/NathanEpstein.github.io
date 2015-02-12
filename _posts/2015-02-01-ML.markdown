@@ -35,7 +35,7 @@ In supervised learning, we develop models based on labelled training data. That 
 
 In unsupervised learning we attempt to find structure in unlabelled data. Unlike supervised learning, we do not have output values by which we can evaluate the quality of candidate solutions. Rather, we are attempting to uncover structure in the data that can be useful in understanding the system it comes from.
 
-For example, consider a dataset consisting of red and blue images. An algorithm can 'figure out' that red and blue are different and sort those images into different groups.
+For example, consider a dataset consisting of red and blue images. A supervised learning algorithm might be used to 'figure out' that red and blue are different and sort those images into different groups.
 
 ###Some Common Unsupervised Learning Techniques:
 
@@ -49,11 +49,11 @@ For example, consider a dataset consisting of red and blue images. An algorithm 
 
 Reinforcement learning is concernced with how agents should behave in order to maximize a reward function.
 
-This is distinct from supervised learning because we are never presented with input/output pairs. The model 'learns' if a decision is good based on outcomes as opposed to a given output value.
+This is distinct from supervised learning because we are never presented with input/output pairs. The model 'learns' if a decision is good based on the outcome of a series of decisions (as opposed to an output value for a single input).
 
-The familiar example is a mouse in a maze. A right turn leads to a shock while a left turn leads a piece of cheese - eventually the mouse learns to turn left.
+For example, in a game of chess, a player might make one mistake and not lose until 20 correct moves later. How do we determine which move was wrong? Reinforcement learning helps us answer this question.
 
-In programming applications, reinforcement learning is typically implemented as a <a href="http://en.wikipedia.org/wiki/Markov_decision_process">Markov decision process.</a>
+Reinforcement learning is generally implemented as a <a href="http://en.wikipedia.org/wiki/Markov_decision_process">Markov decision process.</a>
 
 ##What Type of Model?
 
