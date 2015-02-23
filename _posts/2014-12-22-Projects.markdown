@@ -2,7 +2,7 @@
 layout: post
 author: Nathan Epstein
 title:  "Some of My Recent Projects"
-date:   2015-02-05 12:30:00
+date:   2015-02-23 12:30:00
 categories: jekyll update
 img: "../img/project.png"
 ---
@@ -24,6 +24,11 @@ img: "../img/project.png"
     <li class='project'>
       <a href="https://www.dropbox.com/s/s9tshmd9b7qiebd/DesktopJS.key?dl=0">
         Building Javascript Desktop Apps (Talk @ QueenJS 02/04/2015)
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://github.com/nathanepstein/reinforce">
+        reinforce - plug and play reinforcement learning in Python
       </a>
     </li>
     <li class='project'>
