@@ -22,8 +22,8 @@ img: "../img/project.png"
       </a>
     </li>
     <li class='project'>
-      <a href="https://www.dropbox.com/s/s9tshmd9b7qiebd/DesktopJS.key?dl=0">
-        Building Javascript Desktop Apps (Talk @ QueenJS 02/04/2015)
+      <a href="https://dl.dropboxusercontent.com/u/99280857/d3intro.key">
+        Intro to D3 (Talk @ Code Crew Meetup 02/25/2015)
       </a>
     </li>
     <li class='project'>
@@ -34,6 +34,11 @@ img: "../img/project.png"
     <li class='project'>
       <a href="https://github.com/nathanepstein/markov">
         markov - a compact C++ library for easily simulating common Markov processes
+      </a>
+    </li>
+    <li class='project'>
+      <a href="https://www.dropbox.com/s/s9tshmd9b7qiebd/DesktopJS.key?dl=0">
+        Building Javascript Desktop Apps (Talk @ QueenJS 02/04/2015)
       </a>
     </li>
     <li class='project'>
@@ -52,11 +57,6 @@ img: "../img/project.png"
       </a>
     </li>
     <li class='project'>
-      <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
-        Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
-      </a>
-    </li>
-    <li class='project'>
       <a href="https://github.com/NathanEpstein/Z3d">
         Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
       </a>
@@ -67,13 +67,13 @@ img: "../img/project.png"
       </a>
     </li>
     <li class='project'>
-      <a href="http://d3stockmarket.herokuapp.com/">
-        S&P Throughout History
+      <a href="https://github.com/NathanEpstein/KNear">
+        KNear - javascript implementation of the K-nearest neighbors algorithm
       </a>
     </li>
     <li class='project'>
-      <a href="https://github.com/NathanEpstein/KNear">
-        KNear - javascript implementation of the K-nearest neighbors algorithm
+      <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
+        Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
       </a>
     </li>
   </ul>
