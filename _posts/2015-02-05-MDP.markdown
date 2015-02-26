@@ -82,9 +82,9 @@ Upon convergence, P(s) is the optimal action to take in state s given the estima
 
 ##Additional Resources
 
-1) If you'ld like more information on reinforcement learning check out <a href="http://cs229.stanford.edu/notes/cs229-notes12.pdf">these notes.</a>
+1) If you'd like more information on reinforcement learning check out <a href="http://cs229.stanford.edu/notes/cs229-notes12.pdf">these notes.</a>
 
-2) If you'ld like a ready for use implementation of reinforcement learning, check out <a href="https://github.com/nathanepstein/reinforce">this library.</a>
+2) If you'd like a ready for use implementation of reinforcement learning, check out <a href="https://github.com/nathanepstein/reinforce">this library.</a>
 
 <script type="text/javascript">
   var p = $.parseHTML(katex.renderToString('P_{sa}'));
