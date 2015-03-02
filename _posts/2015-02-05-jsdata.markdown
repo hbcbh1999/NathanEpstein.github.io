@@ -9,7 +9,7 @@ img: "../img/JS.png"
 
 ###Introduction
 
-For most people, the idea of using JavaScript as a data analysis language is intuitively ridiculous. The following are some notes on why this might not be the case.
+The following are some notes on why JavaScript might make more sense as a language for data analysis than most people are likely to expect.
 
 ###Popularity
 
@@ -33,7 +33,7 @@ There is a difference in the availability of functions which are optimized to av
 
 ###Asynchronous
 
-Asynchronicity in JavaScript may be an enormous convenience in data analysis. It is often the case that you need to make several API calls that take non-negligable amounts time to run. In most languages, this means multi-threading or simply accepting the time lost to blocking API calls. In javascript, such a situation is quite simple to address asynchronously.
+Asynchronicity in JavaScript may be an enormous convenience in data analysis. It is often the case that you need to make several API calls that take non-negligible amounts time to run. In most languages, this means multi-threading or simply accepting the time lost to blocking API calls. In javascript, such a situation is quite simple to address asynchronously.
 
 {% highlight javascript %}
 
@@ -47,7 +47,7 @@ APIs.foreach(function(api){
 
 ###Single Language Apps
 
-One of the major advantages of JavaScript is that it can be used to easily develop single-language applications (fullstack web apps - it's the only language that can run in the browser, mobile applications with frameworks like Ionic, and desktop applications via nw.js). A major benefit of this language uniformity is that it allows developers to avoid context shifting.
+One of the major advantages of JavaScript is that it can be used to easily develop single-language applications (full stack web apps - it's the only language that can run in the browser, mobile applications with frameworks like Ionic, and desktop applications via nw.js). A major benefit of this language uniformity is that it allows developers to avoid context shifting.
 
 For applications that include extensive data analysis, being able to integrate that analysis without requiring context shifting is certainly valuable. Ultimately, this means that developing tools for data analysis will be an important part of maintaining JavaScript's usefulness as a means to build single-language applications.
 
