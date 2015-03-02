@@ -38,8 +38,8 @@ Asynchronicity in JavaScript may be an enormous convenience in data analysis. It
 ```javascript
 
 APIs.foreach(function(api){
-  getSomething(api, function(response){
-    doSomething(response);
+  getSomething(api, function(something){
+    doSomething(something);
   });
 });
 
@@ -47,7 +47,8 @@ APIs.foreach(function(api){
 
 ###Single Language Apps
 
-One of the major advantages of JavaScript is its capacity to develop single-language applications
+One of the major advantages of JavaScript is that it can be used to easily develop single-language applications (fullstack web apps - it's the only language that can run in the browser, mobile applications with frameworks like Ionic, and desktop applications via nw.js). A major benefit of this language uniformity is that it allows developers to avoid context shifting.
+
 
 ###Comparison
 
@@ -59,7 +60,7 @@ Obviously, this approach is imperfect but it does effectively highlight the pote
 
 JavaScript beats R and Python on every dimension except existing infrastructure, which is arguably the easiest thing to change. Importantly, JavaScript has the most robust open source community which makes closing the infrastructure gap a more manageable problem.
 
-None of this is to say that JavaScript should/will replace other popular data analysis languages. However, it does suggest that there's good reason for JavaScript to become an important part of the data analysis ecosystem.
+None of this is to say that JavaScript should/will replace other popular data analysis languages. However, it does suggest that there's good reason to consider JavaScript as an important part of the data analysis ecosystem.
 
 
 
