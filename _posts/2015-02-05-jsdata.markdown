@@ -33,6 +33,18 @@ There is a difference in the availability of functions which are optimized to av
 
 ###Asynchronous
 
+Asynchronicity in JavaScript may be an enormous convenience in data analysis. It is often the case that you need to make several API calls that take non-negligable amounts time to run. In most languages, this means multi-threading or simply accepting the time lost to blocking API calls. In javascript, such a situation is quite simple to address asynchronously.
+
+```javascript
+
+APIs.foreach(function(api){
+  getSomething(api, function(response){
+    doSomething(response);
+  });
+});
+
+```
+
 ###Single Language Apps
 
 One of the major advantages of JavaScript is its capacity to develop single-language applications
