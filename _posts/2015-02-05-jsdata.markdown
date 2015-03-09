@@ -9,25 +9,27 @@ img: "../img/JS.png"
 
 ###Introduction
 
-The following are some notes on why JavaScript might make more sense as a language for data analysis than most people are likely to expect.
+The following are some notes on why JavaScript ought to be an important component of the data analysis ecosystem. It is true that there's less existing infrastructure in JS than other languages (like R and Python) but there are some important structural reasons for this not be the case.
+
+None of this is to diminish the value of other programming languages in doing data analysis. Rather, the point is highlight some reasons JS might be a useful addition.
 
 ###Popularity
 
-The obvious reason to consider JS as a data analysis langauge is its general popularity. As, arguably, the most widely used programming language it has an extremely robust open source community.
+The obvious reason to consider JS as a data analysis langauge is its general popularity. As one of the most widely used programming languages, it has an extremely robust open source community.
 
 <img src="/../img/langs.png">
 
-Given basic infrastructure (something like a data frame, well implemented convenience methods for summary statistics, etc.) it's reasonable to believe that libraries for specific applications could be quickly developed.
+Given basic infrastructure (something like a data frame, well implemented convenience methods for summary statistics, etc.) it's reasonable to believe that libraries for specific applications (i.e. regression, unsupervised learning, etc.) could be quickly developed.
 
 ###Computer Time & Ease of Contribution
 
-JavaScript V8 is pretty fast. People aren't used to thinking of JS as being a performant language; it's a fairly recent development. But the fact is that JS generally runs faster (see these <a href="http://julialang.org/benchmarks/">performance benchmarks</a>) than both R and Python, the two <a href="http://www.kdnuggets.com/2013/08/languages-for-analytics-data-mining-data-science.html">most widely used</a> data analysis languages.
+JavaScript V8 is pretty fast. People aren't used to thinking of JS as being a performant language; it's a fairly recent development. But JS stacks up well (see these <a href="http://julialang.org/benchmarks/">performance benchmarks</a>) against both R and Python, the two <a href="http://www.kdnuggets.com/2013/08/languages-for-analytics-data-mining-data-science.html">most widely used</a> data analysis languages.
 
-It could be argued that Python data analysis is faster because major chunks of the popular libraries (pandas, NumPy, etc.) are written in C. However, this language gap means that many of the end users of these libraries are unable to contribute to them. This is certainly a drag on the development of the open source tools.
+It is true that much of Python data analysis is faster because major chunks of the popular libraries (pandas, NumPy, etc.) are written in C. However, this language gap means that many of the end users of these libraries are unable to contribute to them. This is certainly a drag on the development of the open source tools.
 
 ###Math
 
-JavaScript is frequently criticized for its issues with floating point arithmetic. It's worth noting that this issue is not unique to JS. Python, R, and Javascript all follow the <a href="http://en.wikipedia.org/wiki/IEEE_floating_point">IEEE Standard for Floating-Point Arithmetic (IEEE 754)</a>.
+It is worth noting that Javascript uses the same floating point arithmetic as Python and R. All three follow the <a href="http://en.wikipedia.org/wiki/IEEE_floating_point">IEEE Standard for Floating-Point Arithmetic (IEEE 754)</a>.
 
 There is a difference in the availability of functions which are optimized to avoid aggregation of floating point errors. But this is not an inherent limitation of JavaScript.
 
@@ -38,8 +40,8 @@ Asynchronicity in JavaScript may be an enormous convenience in data analysis. It
 {% highlight javascript %}
 
 APIs.foreach(function(api){
-  getSomething(api, function(something){
-    doSomething(something);
+  getSomething(api, function(apiResponse){
+    doSomething(apiResponse);
   });
 });
 
@@ -53,15 +55,11 @@ For applications that include extensive data analysis, being able to integrate t
 
 ###Comparison
 
-The following table ranks JavaScript, Python, R, and Julia as data analysis languages in the categories of existing infrastructure, speed, visualization, and open source community. Infrastructure is determined based on which language is most used for data analysis (following the rankings in the article linked above), speed follows the Julia website benchmarks, visualization is determined by stars on the repo for the most popular visualization library (D3, matplotlib, ggplot2, and Gadfly), and open source community follows the RedMonk language rankings. The highest rank is 1, the lowest is 4.
+The following table compares JavaScript, Python, R, and Julia as data analysis languages in the categories of existing infrastructure, speed, visualization, and open source community. Infrastructure is determined based on which language is most used for data analysis (following the rankings in the article linked above), speed follows the Julia website benchmarks, visualization is determined by stars on the repo for the most popular visualization library (D3, matplotlib, ggplot2, and Gadfly), and open source community follows the RedMonk language rankings. The highest rank is 1, the lowest is 4.
 
-Obviously, this approach is imperfect but it does effectively highlight the potential for JavaScript.
+*Obviously, this approach is highly imperfect. It is not intended to be taken as a definitive ranking but as loose insight into the trade offs of the various languages.*
 
 <img src="/../img/langtable.png">
 
-JavaScript beats R and Python on every dimension except existing infrastructure, which is arguably the easiest thing to change. Importantly, JavaScript has the most robust open source community which makes closing the infrastructure gap a more manageable problem.
-
-None of this is to say that JavaScript should/will replace other popular data analysis languages. However, it does suggest that there's good reason to consider JavaScript as an important part of the data analysis ecosystem.
-
-
+JavaScript compares favorably to R and Python on every dimension except existing infrastructure, which is arguably the easiest thing to change. Importantly, JavaScript has an extremely robust open source community which makes closing the infrastructure gap a more manageable problem.
 
