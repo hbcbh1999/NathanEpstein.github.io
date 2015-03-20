@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nathan Epstein
-title:  "Some of My Recent Projects"
+title:  "Some of My Projects and Talks"
 date:   2015-02-26 12:30:00
 categories: jekyll update
 img: "../img/project.png"
@@ -14,67 +14,81 @@ img: "../img/project.png"
     }
   </style>
 </head>
-<body>
-  <ul>
-    <li class='project'>
-      <a href="http://sphynx.herokuapp.com/">
-        Sphynx (Winner at New York Times Hack Day 2014)
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://dl.dropboxusercontent.com/u/99280857/d3intro.key">
-        Intro to D3 (Talk @ Code Crew Meetup 02/25/2015)
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/nathanepstein/reinforce">
-        reinforce - plug and play reinforcement learning in Python
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/nathanepstein/markov">
-        markov - a compact C++ library for easily simulating common Markov processes
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://www.dropbox.com/s/s9tshmd9b7qiebd/DesktopJS.key?dl=0">
-        Building Javascript Desktop Apps (Talk @ QueenJS 02/04/2015)
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/nathanepstein/findata">
-        finData - an R package to easily scrape and analyze financial time series data
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://www.dropbox.com/sh/pda1dfpts02ykvl/AABSDiNeRAtVrE9gKyQOjNmoa?dl=0">
-        Opinionated Plotting Tools (Talk @ NYC D3 Meetup 12/22/2014)
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/NathanEpstein/D3xter">
-        D3xter.js - Simple plotting built on D3
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/NathanEpstein/Z3d">
-        Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/NathanEpstein/stochastic">
-        Stochastic.js - Simulation of common stochastic processes
-      </a>
-    </li>
-    <li class='project'>
-      <a href="https://github.com/NathanEpstein/KNear">
-        KNear - javascript implementation of the K-nearest neighbors algorithm
-      </a>
-    </li>
-    <li class='project'>
-      <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
-        Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
-      </a>
-    </li>
-  </ul>
-</body>
+
+##Projects
+<ul>
+  <li class='project'>
+    <a href="http://sphynx.herokuapp.com/">
+      Sphynx (Winner at New York Times Hack Day 2014)
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/nathanepstein/pong">
+      A pure JavaScript implementation of Pong
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/spaceInvade3D">
+      A 3D version of Space Invaders, using JavaScript and Three.js
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/nathanepstein/reinforce">
+      reinforce - plug and play reinforcement learning in Python
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/nathanepstein/markov">
+      markov - a compact C++ library for easily simulating common Markov processes
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/nathanepstein/findata">
+      finData - an R package to easily scrape and analyze financial time series data
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/D3xter">
+      D3xter.js - Simple plotting built on D3
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/Z3d">
+      Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/stochastic">
+      Stochastic.js - Simulation of common stochastic processes
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/KNear">
+      KNear - javascript implementation of the K-nearest neighbors algorithm
+    </a>
+  </li>
+  <li class='project'>
+    <a href="http://www.nozariadvisors.com/uploads/1/5/9/7/15973764/momentum_msci_v3.pdf">
+      Using  Momentum  for a Long-Only Strategy  in  US  Market: A Historical  Review
+    </a>
+  </li>
+</ul>
+
+##Talks
+<ul>
+  <li class='project'>
+    <a href="https://dl.dropboxusercontent.com/u/99280857/d3intro.key">
+      Intro to D3 (Talk @ Code Crew Meetup 02/25/2015)
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://www.dropbox.com/s/s9tshmd9b7qiebd/DesktopJS.key?dl=0">
+      Building Javascript Desktop Apps (Talk @ QueenJS 02/04/2015)
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://www.dropbox.com/sh/pda1dfpts02ykvl/AABSDiNeRAtVrE9gKyQOjNmoa?dl=0">
+      Opinionated Plotting Tools (Talk @ NYC D3 Meetup 12/22/2014)
+    </a>
+  </li>
+</ul>
