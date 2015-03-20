@@ -10,7 +10,7 @@ layout: default
 <body>
   <ul class="post-list">
     {% for post in site.posts %}
-    <div class='postItem col-md-3 col-sm-6 col-xs-12'>
+    <div class='postItem col-lg-3 col-md-4 col-sm-6 col-xs-12'>
       <a href="{{ post.url | prepend: site.baseurl }}"><img class='img-circle' src={{post.img}}></a>
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
