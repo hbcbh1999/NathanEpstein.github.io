@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nathan Epstein
-title:  "5 Minute Introduction to D3.js"
+title:  "Introduction to D3.js"
 date:   2014-10-21 12:00:00
 categories: jekyll update
 img: "../img/d3.png"

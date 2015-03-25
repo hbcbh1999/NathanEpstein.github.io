@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nathan Epstein
-title:  "JavaScript as a Data Language"
+title:  "JavaScript for Data"
 date:   2015-02-26 12:00:00
 categories: jekyll update
 img: "../img/JS.png"
