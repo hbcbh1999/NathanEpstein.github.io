@@ -30,7 +30,7 @@ In each simulation we get the strategy of the most successful agent and the weal
 
 ##The Code
 
-The code used for the simulation (written in ruby) is presented below.
+The code used for the simulation (written in ruby) is presented below. It can also be found in this <a href="https://gist.github.com/NathanEpstein/35732bcf1cae1a1d42f5">gist</a>.
 
 {% highlight ruby %}
 require 'csv'
