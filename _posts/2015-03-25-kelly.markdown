@@ -136,4 +136,6 @@ It's clear from inspection that maximum-wealth and wealth-weighted-average produ
 
 Thus, the prescribed strategy from the agent based model follows the mathematically derived result of the Kelly criterion.
 
+## Russian Translation
 
+Пост доступен на сайте softdroid.net: <a href="http://softdroid.net/agent-based-kelly-formula-ru">Восстановление файлов: как правильно использовать формулу Келли</a>.
