@@ -153,9 +153,10 @@ def merge_sort(array)
     half = (array.length/2).floor
     left = array.slice(0,half)
     right = array.slice(half,array.length)
-    return merge(sort(left),sort(right))
+    return merge(merge_sort(left),merge_sort(right))
   end
 end
+
 {% endhighlight %}
 </div>
 <div hidden id='jsMerge'>
