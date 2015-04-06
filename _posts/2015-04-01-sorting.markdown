@@ -200,7 +200,7 @@ function mergeSort(arr){
 <span class='n2'></span>
 
 ####Description:
-Quick sort chooses a pivot element and breaks the array into those elements larger and smaller than the pivot. We recursively call quicksort on each of those groups and return the joined arrays - sorted(smaller) + pivot + sorted(bigger). Base case is an array of length 0 or 1 (which we immediately return).
+Quick sort chooses a pivot element and breaks the array into those elements larger and smaller than the pivot. We recursively call quicksort on each of those sub-arrays to sort them. Base case is an array of length 0 or 1 (which we immediately return).
 
 ####Additional Notes:
 Slower worst case performance than merge sort but this is rare in practice. Faster than merge sort in many cases.
