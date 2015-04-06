@@ -211,47 +211,90 @@ Slower worst case performance than merge sort but this is rare in practice. Fast
 </div>
 <div id='rubyQuick'>
 {% highlight ruby %}
-def quick_sort(array)
-  return array if array.length < 2
-  pivot = (array.length/2).floor
-  left = []
-  mid = []
-  right = []
-  for element in array
-    if element < array[pivot]
-      left.push(element)
-    elsif element > array[pivot]
-      right.push(element)
-    else
-      mid.push(element)
+def quick_sort(*args)
+  array = args[0]
+  if args.length == 3
+    left = args[1]
+    right = args[2]
+  else
+    left = 0
+    right = array.length - 1
+  end
+  if left < right
+    pivot_index = partition(array,left,right)
+    quick_sort(array,left,pivot_index - 1)
+    quick_sort(array,pivot_index + 1,right)
+  end
+end
+
+def partition(array,left,right)
+  mid = (left + (right - left)/2).floor
+  pivot_element = array[mid]
+  store_index = left
+
+  # place midPoint element at the far right
+  swap(array,mid,right)
+
+  for i in left..right
+    if array[i] < pivot_element
+      swap(array,i,store_index)
+      store_index += 1
     end
   end
-  return quick_sort(left).concat(mid).concat(quick_sort(right))
+  # move pivot element from far right to final location
+  swap(array,store_index,right)
+  return store_index
+end
+
+def swap(array,indexA,indexB)
+  temp = array[indexA]
+  array[indexA] = array[indexB]
+  array[indexB] = temp
 end
 {% endhighlight %}
 </div>
 <div hidden id='jsQuick'>
 {% highlight javascript %}
-function quickSort(arr){
-  if (arr.length <= 1) return arr;
+function quickSort(arr,left,right){
 
-  var pivot = Math.floor(arr.length/2);
-  var left = [];
-  var mid = [];
-  var right = [];
-  arr.forEach(function(elem,i){
-    if (elem < arr[pivot]){
-      left.push(elem);
-    }
-    else if (elem > arr[pivot]){
-      right.push(elem);
-    }
-    else{
-      mid.push(elem);
-    }
-  });
+  if(typeof left !== 'number') {
+    left = 0;
+  }
+  if(typeof right !== 'number') {
+    right = arr.length - 1;
+  }
 
-  return quickSort(left).concat(mid).concat(quickSort(right));
+  if (left < right){
+    var pivotIndex = partition(arr,left,right);
+    quickSort(arr,left,pivotIndex-1);
+    quickSort(arr, pivotIndex+1,right);
+  }
+}
+
+function partition(arr,left,right){
+  var midPoint = Math.floor(left + (right - left)/2);
+  var pivotElem = arr[midPoint];
+  var storeIndex = left;
+
+  //place midPoint element at the far right
+  swap(arr,midPoint,right);
+
+  for (var i=left; i < right; i++){
+    if (arr[i] < pivotElem){
+      swap(arr,i,storeIndex);
+      storeIndex++;
+    }
+  }
+  //move pivot element from far right to final location
+  swap(arr,storeIndex,right);
+  return storeIndex;
+}
+
+function swap(arr,indexA,indexB){
+
+  var temp = arr[indexA];
+  arr[indexA] = arr[indexB];
+  arr[indexB] = temp;
 }
 {% endhighlight %}
 </div>
