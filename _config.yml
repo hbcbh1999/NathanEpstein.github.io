@@ -3,7 +3,7 @@ title: NATHAN EPSTEIN
 tab: Welcome to Epstein's Blog
 email: ne2210@columbia.edu
 description:
-   "This is a technical blog authored by Nathan Epstein. It deals with topics in programming, applied math, and data science."
+   "This is a technical blog authored by Nathan Epstein."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Epstein_N
