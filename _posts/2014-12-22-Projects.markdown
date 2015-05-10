@@ -64,7 +64,7 @@ img: "../img/project.png"
   </li>
   <li class='project'>
     <a href="https://github.com/NathanEpstein/KNear">
-      KNear - javascript implementation of the K-nearest neighbors algorithm
+      KNear - JavaScript implementation of the K-nearest neighbors algorithm
     </a>
   </li>
   <li class='project'>

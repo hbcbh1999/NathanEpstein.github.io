@@ -35,7 +35,7 @@ There is a difference in the availability of functions which are optimized to av
 
 ###Asynchronous
 
-Asynchronicity in JavaScript may be an enormous convenience in data analysis. It is often the case that you need to make several API calls that take non-negligible amounts time to run. In most languages, this means multi-threading or simply accepting the time lost to blocking API calls. In javascript, such a situation is quite simple to address asynchronously.
+Asynchronicity in JavaScript may be an enormous convenience in data analysis. It is often the case that you need to make several API calls that take non-negligible amounts time to run. In most languages, this means multi-threading or simply accepting the time lost to blocking API calls. In JavaScript, such a situation is quite simple to address asynchronously.
 
 {% highlight javascript %}
 

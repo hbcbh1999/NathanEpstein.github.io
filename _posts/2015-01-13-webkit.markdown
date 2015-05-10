@@ -11,7 +11,7 @@ img: "../img/webkit.png"
 
 The goal of this tutorial is to introduce <a href="https://github.com/rogerwang/node-webkit">NW.js (previously Node Webkit)</a> and demonstrate integration with <a href="https://angularjs.org/">AngularJS</a> by building a primitive desktop REPL application. It assumes no knowledge of NW.js but some familiarity with AngularJS is helpful.
 
-To keep things simple, our REPL will only support javascript (though adding other languages is not hard). Additionally, we will not do any styling/design.
+To keep things simple, our REPL will only support JavaScript (though adding other languages is not hard). Additionally, we will not do any styling/design.
 
 ## Getting started
 
@@ -191,7 +191,7 @@ angular.module('repl',[])
 
 The `$scope.submit` we will take the `text` argument and write it to a file which will then be executed. After that we render the results.
 
-If this were a web app, main.js would be front end javascript. However, because we are using NW.js, *we can execute Node.js commands in our controller*.
+If this were a web app, main.js would be front end JavaScript. However, because we are using NW.js, *we can execute Node.js commands in our controller*.
 
 Using Node.js, we can implement our `$scope.submit` function as follows:
 
@@ -244,7 +244,7 @@ angular.module('repl',[])
 
 ## Run Your REPL
 
-Now run the application to see your javascript REPL in action!
+Now run the application to see your JavaScript REPL in action!
 
 On OSX:
 
