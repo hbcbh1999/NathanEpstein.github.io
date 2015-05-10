@@ -99,7 +99,7 @@ Upon convergence, P(s) is the optimal action to take in state s given the estima
   var a = $.parseHTML(katex.renderToString('a \\epsilon A'));
   $('.a').append(a);
 
-  var bell = $.parseHTML(katex.renderToString("V(s) = R(s) + max_{a \\epsilon A} \\sum_{s' \\epsilon S} P_{sa}(s')V(s')"));
+  var bell = $.parseHTML(katex.renderToString("V(s) = R(s) + max_{a \\epsilon A} (\\gamma \\sum_{s' \\epsilon S} P_{sa}(s')V(s'))"));
   $('.bell').append(bell);
 </script>
 
