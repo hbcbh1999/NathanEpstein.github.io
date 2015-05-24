@@ -59,7 +59,7 @@ Similarly, we can easily estimate R(s) as being the average reward observed in s
 
 Once we have estimated a model from the data, we can use that model to determine the optimal policy. To be specific, a policy is a function which maps the state space to actions (i.e. P(s) = a means that we take action a in state s).
 
-We begin by noting that the lifetime value of being in a state is the immediate reward from that state plus the dicounted lifetime value of the states we could transition to (multiplied by the probabilities that we transition to those states given our selected action). This result is expressed formally as Bellman's equation.
+We begin by noting that the lifetime value of being in a state is the immediate reward from that state plus the discounted lifetime value of the states we could transition to (multiplied by the probabilities that we transition to those states given our selected action). This result is expressed formally as Bellman's equation.
 
 <span class='bell'></span>
 
