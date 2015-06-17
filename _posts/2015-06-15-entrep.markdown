@@ -54,7 +54,7 @@ In short, a large company is a great choice for people that are some combination
 
 In most cases, compensation, impact, and prestige are likely to be heavily correlated with each other (because they are all heavily correlated with the well being of the company). Because these things are variable, it's worth looking at the distributions across various opportunities.
 
-<img src="../img/skewed_norms.png">
+<img src="/../img/skewed_norms.png">
 
 At a large company, outcomes are comparatively predictable (relative to a startup). An engineer at a blue chip company has a prestigious job, with good pay, and a sizeable impact; moves far away from the status quo are possible but unlikely (relative to a startup). Probabilistically, this distribution looks like a bell curve (the blue line).
 
