@@ -7,14 +7,14 @@ categories: jekyll update
 img: "../img/skewed_norms.png"
 ---
 
-##Introduction
+## Introduction
 
 New developers have lots of career options that may pull them in different directions. Specifically, many struggle with the question of whether to start a startup, join a startup, or work for a larger, more established, company.
 
 The content of this post is aimed at helping developers decide where to work but much of it probably generalizes to other positions as well.
 
 
-##Things to Consider
+## Things to Consider
 
 In making the decision of where to work, there are a few factors that people typically evaluate. Primary considerations are usually related to compensation and work/life balance. Other concerns may include the impact, prestige, and opportunities for professional development.
 
@@ -41,11 +41,13 @@ Compensation at a startup has high volatility. This follows from the fact that e
 In short, early stage startups are well suited to people who are some combination of young, risk-seeking, and not bothered by the prospect of above-average work requirements.
 
 
-##Joining a Large Company
+## Joining an Established Company
 
 With most large companies, work and compensation are more predictable. Employees will generally have specific and well defined responsibilities (in stark contrast to early stage startups). Compensation will typically be less variable because employees generally do not get equity (unless they are very senior). There may be bonuses, but those are almost certainly less variable in value than stock options.
 
-In short, a large company is a great choice for the risk averse.
+Established companies also tend to have comparatively hierarchical structure. This means that in exchange for slower development cycles (and more meetings), employees get infrastructure and a greater confidence that they are working on a product people want (a large company is generally large because they have been successful; this typically requires that a lot of people voluntarily use their product).
+
+In short, a large company is a great choice for people that are some combination of risk averse, appreciative of structure, and happy to have a predictable work/life balance.
 
 
 ## Compensation, Impact, and Prestige
@@ -61,7 +63,7 @@ As a startup employee, outcomes are more skewed and more variable. The probabili
 In this regard, being a startup founder is like being a startup employee only more so. In starting a company, the probability of failure is greater than joining a company which already has some traction. However, the potential prestige, impact, and monetary compensation of a success are also much greater (the red line).
 
 
-## An Additional Note
+## A Note on Advancement
 
 The half life of a programming career is notoriously short (http://read.bi/1cs4Q2c, http://bit.ly/1NsX0HN, http://nyti.ms/1wyISB7, http://bit.ly/1MJl6Jq). Repeatedly learning new technologies is difficult and wage growth stagnates more quickly than in other industries.
 
