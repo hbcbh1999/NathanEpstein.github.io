@@ -2,7 +2,7 @@
 layout: post
 author: Nathan Epstein
 title:  "My Projects and Talks"
-date:   2015-04-01 12:30:00
+date:   2015-06-18 12:30:00
 categories: jekyll update
 img: "../img/project.png"
 ---
@@ -76,6 +76,11 @@ img: "../img/project.png"
 
 ##Talks
 <ul>
+  <li class='project'>
+    <a href="http://nepste.in/jekyll/update/2015/06/15/entrep.html">
+      Drone, Ninja, or Founder? (Talk @ Bitmaker Labs 06/17/2015)
+    </a>
+  </li>
   <li class='project'>
     <a href="https://dl.dropboxusercontent.com/u/99280857/d3intro.key">
       Intro to D3 (Talk @ Code Crew Meetup 02/25/2015)
