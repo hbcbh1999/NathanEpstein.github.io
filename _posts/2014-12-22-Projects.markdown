@@ -2,7 +2,7 @@
 layout: post
 author: Nathan Epstein
 title:  "My Projects and Talks"
-date:   2015-06-18 12:30:00
+date:   2015-08-27 12:30:00
 categories: jekyll update
 img: "../img/project.png"
 ---
@@ -17,6 +17,16 @@ img: "../img/project.png"
 
 ##Projects
 <ul>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/Pavlov.js">
+      Pavlov.js - Reinforcement learning using Markov Decision Processes
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/NathanEpstein/datakit">
+      Datakit - A lightweight framework for data analysis in JavaScript
+    </a>
+  </li>
   <li class='project'>
     <a href="http://sphynx.herokuapp.com/">
       Sphynx (Winner at New York Times Hack Day 2014)
@@ -60,6 +70,11 @@ img: "../img/project.png"
   <li class='project'>
     <a href="https://github.com/NathanEpstein/stochastic">
       Stochastic.js - Simulation of common stochastic processes
+    </a>
+  </li>
+  <li class='project'>
+    <a href="https://github.com/nathanepstein/clusters">
+      Clusters - k-means clustering in Javascript
     </a>
   </li>
   <li class='project'>
