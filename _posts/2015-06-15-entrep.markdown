@@ -67,7 +67,7 @@ In this regard, being a startup founder is like being a startup employee only mo
 
 The half life of a programming career is notoriously short (<a href="http://read.bi/1cs4Q2c">http://read.bi/1cs4Q2c</a>, <a href="http://bit.ly/1NsX0HN">http://bit.ly/1NsX0HN</a>, <a href="http://nyti.ms/1wyISB7">http://nyti.ms/1wyISB7</a>, <a href="http://bit.ly/1MJl6Jq">http://bit.ly/1MJl6Jq</a>). Repeatedly learning new technologies is difficult and wage growth stagnates more quickly than in other industries.
 
-As a result, many programmers move away from writing code over time (into management, quantitative finance, entrepreneurship) or simply accept a wage ceiling. Independent of other the concerns laid out previously, it is uniquely important for developers to consider whether specific job opportunities align themselves with long term goals. Specifically, whether a given position provides clear preparation for desirable future employment.
+As a result, many programmers move away from writing code over time (into management, quantitative finance, entrepreneurship) or simply accept a wage ceiling. Independent of the other concerns laid out previously, it is uniquely important for developers to consider whether specific job opportunities align themselves with long term goals. Specifically, whether a given position provides clear preparation for desirable future employment.
 
 Obviously, this is an important consideration in all jobs but uniquely critical for developers as need to pivot is more likely.
 
