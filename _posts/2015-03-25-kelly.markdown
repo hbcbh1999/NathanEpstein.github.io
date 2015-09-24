@@ -36,67 +36,58 @@ The code used for the simulation (written in ruby) is presented below. It can al
 require 'csv'
 
 class Simulation
-  def initialize(prob_H,num_agents)
+  attr_reader :population
+
+  def initialize(prob_H, num_agents)
     @prob_H = prob_H
     @population = []
     for i in 1..num_agents
-      amount_on_heads = 2*(i.to_f/num_agents) - 1 #uniform from -1 to 1
+      amount_on_heads = 2 * (i.to_f / num_agents) - 1 #uniform from -1 to 1
       @population.push(Agent.new(amount_on_heads))
     end
   end
+
   def flip(iterations)
     for i in 1..iterations
-      rand < @prob_H ? outcome = 'H' : outcome = 'T'
-      for agent in @population
+      outcome = rand < @prob_H ? 'H' : 'T'
+      population.each do |agent|
         agent.bet(outcome)
       end
     end
   end
-  def get_population
-    return @population
-  end
 end
 
 class Agent
+  attr_reader :wealth, :amount_on_heads
+
   def initialize(amount_on_heads)
     @amount_on_heads = amount_on_heads
     @wealth = 1
   end
+
   def bet(outcome)
-    outcome == 'H' ? @wealth = @wealth * (1 + @amount_on_heads) : @wealth = @wealth * (1 - @amount_on_heads)
-  end
-  def get_wealth
-    return @wealth
-  end
-  def get_bet
-    return @amount_on_heads
+    @wealth = outcome == 'H' ? @wealth * (1 + @amount_on_heads) : @wealth * (1 - @amount_on_heads)
   end
 end
 
 
 # CONVENIENCE FUNCTIONS
 def avg_weighted_bet(population)
-  total_wealth = 0
-  for agent in population
-    total_wealth += agent.get_wealth
-  end
-  result = 0
-  for agent in population
-    result += agent.get_bet * (agent.get_wealth.to_f/total_wealth)
-  end
-  return result
+  total_wealth = population.map { |agent| agent.wealth }.reduce(:+)
+
+  population.map { |agent| agent.amount_on_heads * (agent.wealth.to_f / total_wealth) }.reduce(:+)
 end
 
 def max_wealth_bet(population)
-  max_wealth = population[0].get_wealth
-  bet = population[0].get_bet
-  for agent in population
-    if agent.get_wealth > max_wealth
-      max_wealth = agent.get_wealth
-      bet = agent.get_bet
+  max_wealth = population[0].wealth
+  bet = population[0].amount_on_heads
+  population.each do |agent|
+    if agent.wealth > max_wealth
+      max_wealth = agent.wealth
+      bet = agent.amount_on_heads
     end
   end
-  return bet
+  bet
 end
 
 # RUN THE SIMULATION FOR EACH PROBABILITY
@@ -105,14 +96,14 @@ max_values = []
 avg_values = []
 
 for i in 0..100
-  prob_H = i.to_f/100
+  prob_H = i.to_f / 100
   num_agents = 1000
-  kelly_values.push(2*prob_H - 1)
+  kelly_values.push(2 * prob_H - 1)
 
-  s = Simulation.new(prob_H,num_agents)
+  s = Simulation.new(prob_H, num_agents)
   s.flip(1000)
-  max_values.push(max_wealth_bet(s.get_population))
-  avg_values.push(avg_weighted_bet(s.get_population))
+  max_values.push(max_wealth_bet(s.population))
+  avg_values.push(avg_weighted_bet(s.population))
 end
 
 CSV.open('./results.csv','w') do |csv|
@@ -120,7 +111,6 @@ CSV.open('./results.csv','w') do |csv|
   csv << max_values
   csv << avg_values
 end
-
 {% endhighlight %}
 
 
