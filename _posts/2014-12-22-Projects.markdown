@@ -2,7 +2,7 @@
 layout: post
 author: Nathan Epstein
 title:  "My Projects and Talks"
-date:   2015-08-27 12:30:00
+date:   2015-09-27 12:30:00
 categories: jekyll update
 img: "../img/project.png"
 ---
