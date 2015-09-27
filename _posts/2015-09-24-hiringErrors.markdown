@@ -31,7 +31,7 @@ This process has the additional benefit of keeping meetings about new hires shor
 
 ** It may also be tempting to relax this standard to meet high hiring demand. It's possible to imagine scenarios where this is appropriate but generally, the right course of action is to focus on increasing the top of the hiring funnel (i.e. identify more candidates) rather than loosening hiring standards (see the second reference for more on this).
 
-### Some Relevant References
+### References
 
 1) <a href="http://www.bhorowitz.com/hiring_executives_if_you_ve_never_done_the_job_how_do_you_hire_somebody_good"> Ben Horowitz - "Hiring Executives: If You’ve Never Done the Job, How Do You Hire Somebody Good?" </a>
 
