@@ -6,7 +6,7 @@ description:
    "This is a technical blog authored by Nathan Epstein."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: Epstein_N
+twitter_username: epstein_n
 github_username:  NathanEpstein
 
 # Build settings
