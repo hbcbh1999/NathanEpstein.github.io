@@ -17,7 +17,7 @@ None of this is to diminish the value of other programming languages in doing da
 
 The obvious reason to consider JS as a data analysis langauge is its general popularity. As one of the most widely used programming languages, it has an extremely robust open source community.
 
-<img src="/../img/langs.png">
+<img src="/../img/redmonk.png">
 
 Given basic infrastructure (something like a data frame, well implemented convenience methods for summary statistics, etc.) it's reasonable to believe that libraries for specific applications (i.e. regression, unsupervised learning, etc.) could be quickly developed.
 
