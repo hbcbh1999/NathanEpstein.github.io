@@ -235,10 +235,8 @@ svg text {
 }
 </script>
 </head>
-<body>
 <script type="text/javascript">
- var chart = new Chart({"xLab":"Would-be Language Users","yLab":"Current Language Users","width":1400,"height":1000,"bufferHeight":1000,"bufferWidth":1800});
+ var chart = new Chart({"xLab":"Would-be Language Users","yLab":"Current Language Users","width":1500,"height":525,"bufferHeight":1000,"bufferWidth":1800});
  chart.addDataSet({"x":[378,451,481,586,697,799,1022,1080,1088,1104,1133,1153,1162,1344,1347,1385,1386,1388,1641,1670,1672,1769,1942,2075,2170,2637,2705,2746,2912,2975,3135,3615,3789,3945,4015,4077,4725,5419,5452,5793,5794,7529],"y":[299,374,124,263,184,166,1395,740,1339,793,1835,2527,1003,1183,1849,773,1408,1072,371,1445,703,1638,450,3658,720,1984,2545,1989,3635,1884,1759,1914,4496,2851,2754,6437,8522,4932,6871,4459,7664,10769],"labels":["Sharepoint","Salesforce","Spark","Cassandra","Clojure","Rust","Matlab","Cordova","Cloud","CoffeeScript","Wordpress","Visual Basic","Windows Phone","Redis","LAMP","R","Dart","Perl","Hadoop","F#","Scala","Objective-C","Haskell","SQL Server","Swift","Ruby","MongoDB","Arduino","C","C++11","Go","iOS","C++","AngularJS","Node.js","PHP","SQL","Python","C#","Android","Java","JavaScript"]}).addDataSet({"x":[378,7529],"y":[-149.1512547600487,8802.345827352598],"type":"line"}).render();
 </script>
-</body>
 
