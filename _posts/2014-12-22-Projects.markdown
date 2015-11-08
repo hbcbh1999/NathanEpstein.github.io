@@ -23,13 +23,18 @@ img: "../img/project.png"
     </a>
   </li>
   <li class='project'>
+    <a href="http://sphynx.herokuapp.com/">
+      Sphynx (Winner at New York Times Hack Day 2014)
+    </a>
+  </li>
+  <li class='project'>
     <a href="https://github.com/NathanEpstein/datakit">
       Datakit - A lightweight framework for data analysis in JavaScript
     </a>
   </li>
   <li class='project'>
-    <a href="http://sphynx.herokuapp.com/">
-      Sphynx (Winner at New York Times Hack Day 2014)
+    <a href="http://booksandjournals.brillonline.com/content/journals/10.1163/15685373-12342156;jsessionid=5bp78i7b046s5.x-brill-live-02">
+      Duru Calculations - Journal of Cognition and Culture
     </a>
   </li>
   <li class='project'>
@@ -91,6 +96,11 @@ img: "../img/project.png"
 
 ##Talks
 <ul>
+  <li class='project'>
+    <a href="http://2015.empirenode.org/">
+      Data Analysis with JavaScript (Talk at Empire Node 10/23/2015)
+    </a>
+  </li>
   <li class='project'>
     <a href="http://nepste.in/jekyll/update/2015/06/15/entrep.html">
       Drone, Ninja, or Founder? (Talk @ Bitmaker Labs 06/17/2015)
