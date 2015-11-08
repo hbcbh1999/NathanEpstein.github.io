@@ -33,20 +33,6 @@ It is worth noting that Javascript uses the same floating point arithmetic as Py
 
 There is a difference in the availability of functions which are optimized to avoid aggregation of floating point errors. But this is not an inherent limitation of JavaScript.
 
-###Asynchronous
-
-Asynchronicity in JavaScript may be an enormous convenience in data analysis. It is often the case that you need to make several API calls that take non-negligible amounts time to run. In most languages, this means multi-threading or simply accepting the time lost to blocking API calls. In JavaScript, such a situation is quite simple to address asynchronously.
-
-{% highlight javascript %}
-
-APIs.foreach(function(api){
-  getSomething(api, function(apiResponse){
-    doSomething(apiResponse);
-  });
-});
-
-{% endhighlight %}
-
 ###Single Language Apps
 
 One of the major advantages of JavaScript is that it can be used to easily develop single-language applications (full stack web apps - it's the only language that can run in the browser, mobile applications with frameworks like Ionic, and desktop applications via nw.js). A major benefit of this language uniformity is that it allows developers to avoid context shifting.
