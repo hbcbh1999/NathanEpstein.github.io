@@ -13,6 +13,12 @@ The following are some notes on why JavaScript ought to be an important componen
 
 None of this is to diminish the value of other programming languages in doing data analysis. Rather, the point is highlight some reasons JS might be a useful addition.
 
+<div id="tree"></div>
+
+###Visualization Tools
+
+D3.js (and its many offspring), THREE.js, Chart.js, and many others. JavaScript has a robust open source ecosystem for data visualization that other languages generally don't.
+
 ###Popularity
 
 The obvious reason to consider JS as a data analysis langauge is its general popularity. As one of the most widely used programming languages, it has an extremely robust open source community.
@@ -48,3 +54,167 @@ The following table compares JavaScript, Python, R, and Julia as data analysis l
 <img src="/../img/langtable.png">
 
 JavaScript compares favorably to R and Python on every dimension except existing infrastructure, which is arguably the easiest thing to change. Importantly, JavaScript has an extremely robust open source community which makes closing the infrastructure gap a more manageable problem.
+
+
+<!-- tree vis js and styling -->
+<style>
+  .node circle {
+    fill: #fff;
+    stroke: steelBlue;
+    stroke-width: 3px;
+  }
+
+  .node text { font: 12px sans-serif; }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+  }
+</style>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+
+var treeData = [
+  {
+    "name": "Why Use JavaScript for Data Analysis?",
+    "parent": "null",
+    "children": [
+      {
+        "name": "Visualization Tools",
+        "children": [
+          {
+            "name": "D3.js",
+            "children": [
+              {
+                "name": "NVD3"
+              },
+              {
+                "name": "dimple"
+              },
+              {
+                "name": "d3xter"
+              },
+              {
+                "name": "many others..."
+              }
+            ]
+          },
+          {
+            "name": "Chart.js",
+          },
+          {
+            "name": "three.js",
+          }
+        ]
+      },
+      {
+        "name": "App Integration",
+        "children": [
+          {
+            "name": "Front-end Web"
+          },
+          {
+            "name": "Back-end Web (Node.js)"
+          },
+          {
+            "name": "Mobile Applications (Ionic)"
+          },
+          {
+            "name": "Desktop Applications (nw.js)"
+          }
+        ]
+      },
+      {
+        "name": "Node.js",
+        "children": [
+          {
+            "name": "npm",
+            "children": [
+              {
+                "name": "Ease of Contribution"
+              },
+              {
+                "name": "Large OS Community"
+              },
+            ]
+          },
+          {
+            "name": "Speed",
+          },
+          {
+            "name": "File IO",
+          }
+        ]
+      }
+    ]
+  }
+];
+
+var margin = {top: 20, right: 120, bottom: 20, left: 250},
+  width = 960 - margin.right - margin.left,
+  height = 500 - margin.top - margin.bottom;
+
+var i = 0;
+
+var tree = d3.layout.tree()
+  .size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+  .projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("#tree").append("svg")
+  .attr("width", width + margin.right + margin.left)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+root = treeData[0];
+
+update(root);
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+    links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Declare the nodes…
+  var node = svg.selectAll("g.node")
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter the nodes.
+  var nodeEnter = node.enter().append("g")
+    .attr("class", "node")
+    .attr("transform", function(d) {
+      return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeEnter.append("circle")
+    .attr("r", 10)
+    .style("fill", "#fff");
+
+  nodeEnter.append("text")
+    .attr("x", function(d) {
+      return d.children || d._children ? -13 : 13; })
+    .attr("dy", ".35em")
+    .attr("text-anchor", function(d) {
+      return d.children || d._children ? "end" : "start"; })
+    .text(function(d) { return d.name; })
+    .style("fill-opacity", 1);
+
+  // Declare the links…
+  var link = svg.selectAll("path.link")
+    .data(links, function(d) { return d.target.id; });
+
+  // Enter the links.
+  link.enter().insert("path", "g")
+    .attr("class", "link")
+    .attr("d", diagonal);
+
+}
+</script>
+
