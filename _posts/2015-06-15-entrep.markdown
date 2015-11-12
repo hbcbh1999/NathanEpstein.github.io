@@ -47,7 +47,7 @@ With most large companies, work and compensation are more predictable. Employees
 
 Established companies also tend to have comparatively hierarchical structure. This means that in exchange for slower development cycles (and more meetings), employees get infrastructure and a greater confidence that they are working on a product people want (a large company is generally large because they have been successful; this typically requires that a lot of people voluntarily use their product).
 
-In short, a large company is a great choice for people that are some combination of risk averse, appreciative of structure, and happy to have a predictable work/life balance.
+In short, a large company is a great choice for people that are some combination of risk averse, appreciative of the leverage provided by a big organization, and happy to have a predictable work/life balance.
 
 
 ## Compensation, Impact, and Prestige
@@ -65,7 +65,7 @@ In this regard, being a startup founder is like being a startup employee only mo
 
 ## A Note on Advancement
 
-The half life of a programming career is notoriously short (<a href="http://read.bi/1cs4Q2c">http://read.bi/1cs4Q2c</a>, <a href="http://bit.ly/1NsX0HN">http://bit.ly/1NsX0HN</a>, <a href="http://nyti.ms/1wyISB7">http://nyti.ms/1wyISB7</a>, <a href="http://bit.ly/1MJl6Jq">http://bit.ly/1MJl6Jq</a>). Repeatedly learning new technologies is difficult and wage growth stagnates more quickly than in other industries.
+The life of a programming career is notoriously short (<a href="http://read.bi/1cs4Q2c">http://read.bi/1cs4Q2c</a>, <a href="http://bit.ly/1NsX0HN">http://bit.ly/1NsX0HN</a>, <a href="http://nyti.ms/1wyISB7">http://nyti.ms/1wyISB7</a>, <a href="http://bit.ly/1MJl6Jq">http://bit.ly/1MJl6Jq</a>). Repeatedly learning new technologies is difficult and wage growth stagnates more quickly than in other industries.
 
 As a result, many programmers move away from writing code over time (into management, quantitative finance, entrepreneurship) or simply accept a wage ceiling. Independent of the other concerns laid out previously, it is uniquely important for developers to consider whether specific job opportunities align themselves with long term goals. Specifically, whether a given position provides clear preparation for desirable future employment.
 
