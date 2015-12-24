@@ -23,7 +23,7 @@ img: "../img/project.png"
     </a>
   </li>
   <li class='project'>
-    <a href="http://sphynx.herokuapp.com/">
+    <a href="http://open.blogs.nytimes.com/2014/12/19/timesopen-hack-day-2014/">
       Sphynx (Winner at New York Times Hack Day 2014)
     </a>
   </li>
