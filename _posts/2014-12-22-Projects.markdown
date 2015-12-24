@@ -38,16 +38,6 @@ img: "../img/project.png"
     </a>
   </li>
   <li class='project'>
-    <a href="https://github.com/nathanepstein/pong">
-      A pure JavaScript implementation of Pong
-    </a>
-  </li>
-  <li class='project'>
-    <a href="https://github.com/NathanEpstein/spaceInvade3D">
-      A 3D version of Space Invaders, using JavaScript and Three.js
-    </a>
-  </li>
-  <li class='project'>
     <a href="https://github.com/nathanepstein/reinforce">
       reinforce - plug and play reinforcement learning in Python
     </a>
@@ -75,16 +65,6 @@ img: "../img/project.png"
   <li class='project'>
     <a href="https://github.com/NathanEpstein/stochastic">
       Stochastic.js - Simulation of common stochastic processes
-    </a>
-  </li>
-  <li class='project'>
-    <a href="https://github.com/nathanepstein/clusters">
-      Clusters - k-means clustering in Javascript
-    </a>
-  </li>
-  <li class='project'>
-    <a href="https://github.com/NathanEpstein/KNear">
-      KNear - JavaScript implementation of the K-nearest neighbors algorithm
     </a>
   </li>
   <li class='project'>
