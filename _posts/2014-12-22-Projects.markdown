@@ -23,11 +23,6 @@ img: "../img/project.png"
     </a>
   </li>
   <li class='project'>
-    <a href="http://open.blogs.nytimes.com/2014/12/19/timesopen-hack-day-2014/">
-      Sphynx (Winner at New York Times Hack Day 2014)
-    </a>
-  </li>
-  <li class='project'>
     <a href="https://github.com/NathanEpstein/datakit">
       Datakit - A lightweight framework for data analysis in JavaScript
     </a>
@@ -35,6 +30,11 @@ img: "../img/project.png"
   <li class='project'>
     <a href="http://booksandjournals.brillonline.com/content/journals/10.1163/15685373-12342156;jsessionid=5bp78i7b046s5.x-brill-live-02">
       Duru Calculations - Journal of Cognition and Culture
+    </a>
+  </li>
+  <li class='project'>
+    <a href="http://open.blogs.nytimes.com/2014/12/19/timesopen-hack-day-2014/">
+      Sphynx (Winner at New York Times Hack Day 2014)
     </a>
   </li>
   <li class='project'>
