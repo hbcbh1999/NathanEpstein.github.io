@@ -1,20 +1,12 @@
 ---
 layout: default
 ---
-<head>
-  <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="../css/home.css">
-</head>
 <body>
   <ul class="post-list">
     {% for post in site.posts %}
-    <div class='postItem col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+    <div class='postItem col-lg-3 col-sm-6 col-xs-12'>
       <a href="{{ post.url | prepend: site.baseurl }}"><img class='img-circle' src={{post.img}}></a>
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
@@ -23,4 +15,3 @@ layout: default
     {% endfor %}
   </ul>
 </body>
-

@@ -1,13 +1,13 @@
 # Site settings
 title: NATHAN EPSTEIN
-tab: Nathan Epstein's Blog
 email: nathan@wealthsimple.com
-description:
-   "This is a technical blog authored by Nathan Epstein."
+description: > # this means to ignore newlines until "baseurl:"
+  OVERRIDDEN IN FOOTER TO INCUDE TWITTER LINKS
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: epstein_n
 github_username:  NathanEpstein
+permalink: "/:title"
 
 # Build settings
 markdown: kramdown

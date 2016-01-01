@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Publications"
+date:   2015-12-31 12:00:00
+categories: jekyll update
+img: '../img/writings.png'
+---
+
+<ul>
+  {% for writing in site.data.writings %}
+    <li class="project">
+      <a href="{{writing.url}}" target="_blank">
+        {{ writing.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
