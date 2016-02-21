@@ -2,7 +2,7 @@
 layout: post
 title:  "Publications"
 date:   2015-12-31 12:00:00
-categories: jekyll update
+categories: jekyll update, views
 img: '../img/writings.png'
 ---
 
