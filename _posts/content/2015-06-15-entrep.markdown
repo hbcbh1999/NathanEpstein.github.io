@@ -1,0 +1,72 @@
+---
+layout: post
+author: Nathan Epstein
+title:  "Drone, Ninja, or Founder?"
+date:   2015-06-15 12:00:00
+categories: jekyll update, content
+---
+
+## Introduction
+
+New developers have lots of career options; many struggle with the question of whether to start a startup, join a startup, or work for a larger - more established - company.
+
+The content of this post is aimed at helping developers decide where to work but much of it probably generalizes to other positions as well.
+
+
+## Things to Consider
+
+In making the decision of where to work, there are a few factors that people typically evaluate. Primary considerations are usually related to compensation and work/life balance. Other concerns may include the impact, prestige, and opportunities for professional development.
+
+There are no hard truths about the different categories of work (some opportunities are strictly better than others) but there are things that are typically true about each that can guide your search.
+
+
+## Being A Founder
+
+There is a fair amount of material about good and bad reasons to start a startup (and so I'll avoid rehashing it). Dustin Moskovitz, founder of Asana, has a particularly well regarded <a href="https://medium.com/i-m-h-o/good-and-bad-reasons-to-become-an-entrepreneur-decf0766de8d">post</a> on this issue.
+
+In short, the good reason to be a founder is that you are uniquely qualified to build a particular product that the world needs. Passion for the problem you are solving is also a requirement though this tends to be heavily correlated with being good at what you are working on.
+
+It's worth noting that most people probably do not fit this description (i.e. if you are unclear about whether it makes sense to start a startup, the answer is probably no).
+
+
+## Joining a Startup
+
+Startups generally need employees that will work harder than people at more established companies. This makes working at an early stage company a bad choice for people that are primarily interested in work/life balance.
+
+If a startup has a lot of money/is better established, it may offer a better work life balance but it will also offer less upside compensation potential. It's rare that a late employee (at any company) gets a good work/life balance, a high salary, and meaningful equity. In short, work/life balance at late stage startups is more like that at large companies.
+
+Compensation at a startup has high volatility (i.e. involves equity). This may sound alarming to many but is actually good for young (or otherwise risk-seeking) employees (as with financial investments, young people are generally well advised to take on more risk in exchange for higher expected returns over the long run).
+
+In short, early stage startups are well suited to people who are some combination of young, risk-seeking, and not bothered by the prospect of above-average work requirements.
+
+
+## Joining an Established Company
+
+With most large companies, work and compensation are more predictable. Employees will generally have specific and well defined responsibilities (in stark contrast to early stage startups). Compensation will typically be less variable because employees generally do not get equity. There may be bonuses, but those are almost certainly less variable in value than stock options.
+
+Established companies also tend to have comparatively hierarchical structure. This means that in exchange for slower development cycles (and more meetings), employees get infrastructure and a greater confidence that they are working on a product people want (a large company is generally large because they have been successful; this requires that a lot of people voluntarily use their product).
+
+In short, a large company is a great choice for people that are some combination of risk averse, appreciative of the leverage provided by a big organization, and happy to have a predictable work/life balance.
+
+
+## Compensation, Impact, and Prestige
+
+In most cases, compensation, impact, and prestige are likely to be heavily correlated with each other (because they are all heavily correlated with the success of the company). Because these things are variable, it's worth looking at the distributions across various opportunities.
+
+<img src="/../img/skewed_norms.png">
+
+At a large company, outcomes are comparatively predictable (relative to a startup). An engineer at a blue chip company has a prestigious job, with good pay, and a sizeable impact; moves far away from the status quo are possible but unlikely (relative to a startup). Probabilistically, this distribution looks like a bell curve (the blue line).
+
+As a startup employee, outcomes are more skewed and more variable. The probability that the company will fail (or at least not become large) is much higher. If a company fails, the prestige and impact of a position there certainly fall with it. The value of an equity stake in the company does too. However, the probability of breakaway success is also greater and so the upward tail of the distribution is heavier (the green line).
+
+In this regard, being a startup founder is like being a startup employee only more so. In starting a company, the probability of failure is greater than joining a company which already has some traction. However, the potential prestige, impact, and monetary compensation of a success are also much greater (the red line).
+
+
+## A Note on Advancement
+
+The life of a programming career is notoriously short (<a href="http://read.bi/1cs4Q2c">http://read.bi/1cs4Q2c</a>, <a href="http://bit.ly/1NsX0HN">http://bit.ly/1NsX0HN</a>, <a href="http://nyti.ms/1wyISB7">http://nyti.ms/1wyISB7</a>, <a href="http://bit.ly/1MJl6Jq">http://bit.ly/1MJl6Jq</a>). Repeatedly learning new technologies is difficult and wage growth stagnates more quickly than in other industries.
+
+As a result, many programmers move away from writing code over time (into management, quantitative finance, entrepreneurship) or simply accept a wage ceiling. Independent of the other concerns laid out previously, it is uniquely important for developers to consider whether specific job opportunities align themselves with long term goals. Specifically, whether a given position provides clear preparation for desirable future employment.
+
+Obviously, this is an important consideration in all jobs but uniquely critical for developers as the need to pivot is more likely.
+
