@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: view
 title:  "Projects"
 date:   2015-12-31 12:00:02
 categories: jekyll update, views

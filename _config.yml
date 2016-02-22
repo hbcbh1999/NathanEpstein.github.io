@@ -4,7 +4,7 @@ email: nathan@wealthsimple.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal website of Nathan Epstein - data scientist & software engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://nepste.in"
 twitter_username: epstein_n
 github_username:  NathanEpstein
 permalink: "/:title"

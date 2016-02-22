@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: view
 title:  "Publications"
 date:   2015-12-31 12:00:00
 categories: jekyll update, views

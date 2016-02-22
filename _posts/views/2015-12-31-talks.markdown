@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: view
 title:  "Talks"
 date:   2015-12-31 12:00:03
 categories: jekyll update, views

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: view
 title:  "About"
 date:   2015-12-31 12:00:04
 categories: jekyll update, views

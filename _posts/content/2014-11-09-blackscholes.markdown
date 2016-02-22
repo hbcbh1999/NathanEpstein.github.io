@@ -39,6 +39,7 @@ From the <a href="http://books.google.com/books?id=H06xzeRQgV4C&pg=PA124&lpg=PA1
   $('#img3').append(html);
 </script>
 
+
 ## The Black-Scholes PDE
 
 The goal of the Black-Scholes PDE is to let us determine the value of a derivative on an underlying stock. We get the PDE by examining the returns on a portfolio of the derivative (call it V) and the underlying stock (denoted S). We go long 1 unit of the derivative and short dV/dS shares of the stock.
@@ -103,6 +104,7 @@ Because the portfolio is riskless, it must earn the same return as if we investe
 
 
 The final line is the Black-Scholes PDE. It is important to note that this result depends on several <a href="http://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model#The_Black-Scholes_world">assumptions</a> which may not always be true. Practitioners seeking to apply the model should take note of these limitations.
+
 
 ## Dynamic Hedging
 
