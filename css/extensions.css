@@ -7,6 +7,9 @@ a, a:visited{
   color:#424242;
   font-family: 'Forum', serif;
 }
+p a {
+  text-decoration: underline;
+}
 article p {
     font-family: 'Forum', serif;
     font-size: 22px;
