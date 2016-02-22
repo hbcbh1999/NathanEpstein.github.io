@@ -5,11 +5,11 @@ title:  "Simulation Foundations"
 categories: jekyll update, content
 ---
 
-##Introductory Note
+## Introductory Note
 
 Courses on simulation generally start with the assumption that you can generate a uniform random variable and nothing else. You can simulate probability distributions, stochastic processes, and more by transforming the generated uniform. Below, we take a quick look at a few key ideas in simulation. This tutorial is by no means exhaustive but introduces the key tools for addressing many problems in simulation.
 
-##Simulation by Inversion
+## Simulation by Inversion
 
 Consider a continuous random variable (call it X) with the cumulative distribution function (CDF) F. By definition, F(x) is the probability that X < x. Thus, F(X) is also a random variable that ranges from 0 to 1. Moreover, F(X) turns out to be uniformly distributed between 0 and 1.
 
@@ -23,7 +23,7 @@ This result turns out to be extremely useful. Assume that F is invertible and le
 
 It’s important to note that there are many continuous random variables that cannot be simulated by inversion (the normal distribution being a prominent example). Such distributions require special methods to simulate (in the case of the normal distribution, we use a method known as <a href="http://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform">Box Muller</a>).
 
-##Discrete Random Variables
+## Discrete Random Variables
 
 In simulating discrete random variables with a uniform, the idea is to assign each outcome in the state space to a unique interval of length equal to the probability of that outcome (and contained within the open interval (0,1)).
 
@@ -37,7 +37,7 @@ In simulating discrete random variables with a uniform, the idea is to assign ea
 
 3) If sum > U, then x = n. Else, n = n + 1 and return to step 2.
 
-##Simulate Stochastic Processes
+## Simulate Stochastic Processes
 
 A stochastic process is a collection of random variables which represent the evolution of a system of random values over time. To simulate the stochastic process, we need only simulate the random variables which govern its behavior.
 
@@ -50,7 +50,7 @@ A stochastic process is a collection of random variables which represent the evo
  3) If sum > t, then N(t) = n. Else, n = n + 1 and return to step 2.
 
 
-##Monte Carlo Integration
+## Monte Carlo Integration
 
 Simulation has applications outside of probability theory as well. In particular, Monte Carlo methods involve repeated random sampling to develop numerical approximations of values that are difficult to approximate analytically. A common application of Monte Carlo methods is approximating definite integrals that are difficult to solve by hand.
 
