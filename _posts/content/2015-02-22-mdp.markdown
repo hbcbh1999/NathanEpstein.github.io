@@ -3,6 +3,7 @@ layout: post
 author: Nathan Epstein
 title:  "Reinforcement Learning"
 categories: jekyll update, content
+tweet: "Markov decision processes for reinforcement learning"
 ---
 
 ## Introduction

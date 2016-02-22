@@ -3,6 +3,7 @@ layout: post
 author: Nathan Epstein
 title:  "Simulation Foundations"
 categories: jekyll update, content
+tweet: "A primer on simulation analysis"
 ---
 
 ## Introductory Note

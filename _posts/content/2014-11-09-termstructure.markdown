@@ -3,6 +3,7 @@ layout: post
 author: Nathan Epstein
 title:  "Term Structure Equation"
 categories: jekyll update, content
+tweet: "Understanding the Term Structure Equation"
 ---
 
 There are many <a href="http://en.wikipedia.org/wiki/Short-rate_model#Particular_short-rate_models">stochastic models</a> which are used to describe the future evolution of the short rate (instantaneous spot rate). Given such a model, we may find it useful to develop an equation which relates the short rate to the yield curve.
