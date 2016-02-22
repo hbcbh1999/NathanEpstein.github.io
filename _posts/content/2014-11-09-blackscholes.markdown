@@ -4,9 +4,10 @@ author: Nathan Epstein
 title:  "Ito’s Lemma & Black-Scholes"
 categories: jekyll update, content
 ---
+
 ###Ito’s Lemma (Informal Derivation)
 
- Much like we use derivatives to examine how deterministic functions change with their underlying variables, Ito’s lemma lets us examine how functions of stochastic variables change over the evolution of the underlying stochastic process. More formally, Ito’s lemma is used to find the differential of a time-dependent function of a stochastic process.
+Much like we use derivatives to examine how deterministic functions change with their underlying variables, Ito’s lemma lets us examine how functions of stochastic variables change over the evolution of the underlying stochastic process. More formally, Ito’s lemma is used to find the differential of a time-dependent function of a stochastic process.
 
 If x is an Ito drift-diffusion process, we may represent it as follows:
 
@@ -103,7 +104,6 @@ Because the portfolio is riskless, it must earn the same return as if we investe
 
 The final line is the Black-Scholes PDE. It is important to note that this result depends on several <a href="http://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model#The_Black-Scholes_world">assumptions</a> which may not always be true. Practitioners seeking to apply the model should take note of these limitations.
 
-
 ###Dynamic Hedging
 
 In theory, the Black-Scholes portfolio uses a stock position to hedge away the risk of purchasing a derivative (and collects the risk free rate of return). For investment purposes, this is not particularly exciting; we can earn the risk free rate (with much less difficulty) by buying treasury bonds.
@@ -145,7 +145,6 @@ Substituting this result into the equation for the portfolio return, we get:
   var html = $.parseHTML(katex.renderToString(string));
   $('#img14').append(html);
 </script>
-
 
 Thus, the portfolio earns the risk free rate (the first term) plus a premium for the difference in the observed stock variance and implied stock variance (the second term). *Owning the Black-Scholes portfolio is a bet that the observed volatility of the stock will be greater than the implied volatility of the stock.*
 
