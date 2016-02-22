@@ -2,7 +2,6 @@
 layout: post
 author: Nathan Epstein
 title:  "Reinforcement Learning"
-date:   2015-02-22 12:00:00
 categories: jekyll update, content
 ---
 

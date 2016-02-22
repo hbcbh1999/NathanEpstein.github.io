@@ -2,7 +2,6 @@
 layout: post
 author: Nathan Epstein
 title:  "Term Structure Equation"
-date:   2014-05-19 12:00:00
 categories: jekyll update, content
 ---
 

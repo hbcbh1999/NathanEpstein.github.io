@@ -2,7 +2,6 @@
 layout: post
 author: Nathan Epstein
 title:  "Ito’s Lemma & Black-Scholes"
-date:   2014-05-14 12:00:00
 categories: jekyll update, content
 ---
 ###Ito’s Lemma (Informal Derivation)
