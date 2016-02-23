@@ -1,6 +1,6 @@
 # Site settings
 title: NATHAN EPSTEIN
-email: nathan@wealthsimple.com
+email: ne2210@columbia.edu
 description: > # this means to ignore newlines until "baseurl:"
   Personal website of Nathan Epstein - data scientist & software engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
