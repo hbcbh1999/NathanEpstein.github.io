@@ -3,6 +3,7 @@ layout: post
 author: Nathan Epstein
 title:  "Drone, Ninja, or Founder?"
 categories: jekyll update, content
+tweet:  "Drone, Ninja, or Founder?"
 ---
 
 ## Introduction
