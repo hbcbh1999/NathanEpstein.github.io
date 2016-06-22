@@ -22,6 +22,9 @@
 - title: finData - an R package to easily scrape and analyze financial time series data
   url: https://github.com/nathanepstein/findata
 
+- title: PyDexter - Simple plotting for Python built on D3
+  url: https://github.com/D3xterjs/pydexter
+
 - title: Z3d.js - Interactive 3D plotting with a simple function call built on Three.js
   url: https://github.com/NathanEpstein/Z3d
 
