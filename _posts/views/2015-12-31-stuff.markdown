@@ -5,6 +5,7 @@ date:   2015-12-31 12:00:01
 categories: jekyll update, views
 img: '../img/projects.png'
 ---
+
 <div class= "col-lg-4 col-sm-6 col-xs-12">
   <ul>
     {% for project in site.data.projects %}
