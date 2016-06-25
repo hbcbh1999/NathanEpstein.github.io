@@ -1,7 +1,7 @@
 ---
 layout: view
 title:  "About"
-date:   2015-12-31 12:00:04
+date:   2015-12-31 12:00:03
 categories: jekyll update, views
 img: '../img/about.png'
 ---

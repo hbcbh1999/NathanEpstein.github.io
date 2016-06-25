@@ -1,11 +1,10 @@
 ---
 layout: view
 title:  "Projects"
-date:   2015-12-31 12:00:02
+date:   2015-12-31 12:00:00
 categories: jekyll update, views
 img: '../img/projects.png'
 ---
-
 <ul>
   {% for project in site.data.projects %}
     <li class="project">

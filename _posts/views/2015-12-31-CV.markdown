@@ -1,7 +1,7 @@
 ---
 layout: view
 title:  "CV"
-date:   2015-12-31 12:00:00
+date:   2015-12-31 12:00:02
 categories: jekyll update, views
 img: '../img/writings.png'
 ---
