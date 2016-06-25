@@ -57,12 +57,6 @@ h2 {
     padding-right: 0px;
   }
 }
-@media (max-width: 800px) {
-  .postItem {
-    text-align: center;
-    width: 50%;
-  }
-}
 @media (max-width: 600px) {
   .postItem{
     text-align: center;
