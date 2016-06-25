@@ -3,11 +3,16 @@ layout: home
 ---
 <body>
   {% for view in site.categories.views %}
-    <div class='postItem col-lg-3 col-sm-6 col-xs-12'>
-      <a href="{{ view.url | prepend: site.baseurl }}"><img class='img-circle' src={{view.img}}></a>
-      <h2>
-        <a class="post-link" href="{{ view.url | prepend: site.baseurl }}">{{ view.title }}</a>
-      </h2>
-    </div>
+    {% if view.title == "Code & Content" %}
+    <div class='postItem col-lg-4 col-sm-12 col-xs-12'>
+    {% else %}
+    <div class='postItem col-lg-4 col-sm-6 col-xs-12'>
+    {% endif %}
+
+    <a href="{{ view.url | prepend: site.baseurl }}"><img class='img-circle' src={{view.img}}></a>
+    <h2>
+      <a class="post-link" href="{{ view.url | prepend: site.baseurl }}">{{ view.title }}</a>
+    </h2>
+  </div>
   {% endfor %}
 </body>
