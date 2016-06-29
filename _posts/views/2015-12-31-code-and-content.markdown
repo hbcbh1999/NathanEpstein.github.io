@@ -1,6 +1,6 @@
 ---
 layout: view_wide
-title:  "Code & Content"
+title:  "Select Code & Content"
 date:   2015-12-31 12:00:02
 categories: jekyll update, views
 img: '../img/projects.png'
