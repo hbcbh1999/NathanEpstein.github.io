@@ -7,7 +7,7 @@ img: '../img/cv.png'
 ---
 
 <div class="col-lg-6 col-sm-12">
-  <h3 align="center">Talks</h3>
+  <h3>Talks</h3>
   <ul>
     {% for talk in site.data.talks %}
       <li class="project">
@@ -20,7 +20,7 @@ img: '../img/cv.png'
 </div>
 
 <div class="col-lg-6 col-sm-12">
-  <h3 align="center">Publications</h3>
+  <h3>Publications</h3>
   <ul>
     {% for writing in site.data.writings %}
       <li class="project">
