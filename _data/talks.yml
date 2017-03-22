@@ -1,4 +1,7 @@
-- title: Predicting the Growth of Programming Languages (Queens JS 06/01/2016)
+- title: (Mis)adventures with JS Compilers (BrooklynJS 03/16/2017)
+  url: https://github.com/brooklynjs/brooklynjs.github.io/commit/9cc05aab39857f6a00bc23ea579792531ac1e36e
+
+- title: Predicting the Growth of Programming Languages (QueensJS 06/01/2016)
   url: http://www.meetup.com/QueensJS/events/231194742/
 
 - title: Machine Learning at Scale (PyData Berlin 05/20/2016)
@@ -13,7 +16,7 @@
 - title: Intro to D3 (Code Crew Meetup 02/25/2015)
   url: http://www.meetup.com/codecrewny/events/220570385/
 
-- title: Building JavaScript Desktop Apps (Queens JS 02/04/2015)
+- title: Building JavaScript Desktop Apps (QueensJS 02/04/2015)
   url: http://www.meetup.com/QueensJS/events/219964734/
 
 - title: Opinionated Plotting Tools (NYC D3 Meetup 12/22/2014)
